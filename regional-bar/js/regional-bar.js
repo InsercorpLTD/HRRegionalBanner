@@ -31,7 +31,7 @@ let banner = {
 		size += '</ul>';
 		let bar = '<div class="top-bar fixed-bar regional-bar">';
 			bar += '<div class="pull-left regional-breadcrumb">'; //regional-breadcrumb
-				bar += '<span class="region-seal"><a href="http://hrpdcva.gov/" title="Hampton Roads Virginia, America\'s first Region" target="_blank"><img src="https://raw.githubusercontent.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/img/hr-seal.png" title="Hampton Roads Virginia, America\'s first Region" /><span class="region-text">Hampton Roads, Virginia</span></a></span><!--'; 
+				bar += '<span class="region-seal"><a href="http://hrpdcva.gov/" title="Hampton Roads Virginia, America\'s first Region" target="_blank"><img src="https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/regional-bar/img/hr-seal.png" title="Hampton Roads Virginia, America\'s first Region" /><span class="region-text">Hampton Roads, Virginia</span></a></span><!--'; 
 				bar += '--><span class="glyphicon glyphicon-chevron-right"></span><!-- ';
 				bar += '--><span class="domain" id="regional-domain-link"><a href="/" title="'+banner.title+'">'+banner.title+'</a></span>';
 			bar += '</div>'; // End Breadcrumb
