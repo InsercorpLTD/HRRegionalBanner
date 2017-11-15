@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
 	let cssId = 'regional-bar-css'; let jsId = 'regional-bar-js'; let resetId = 'reset'; let glyphId = 'glyph-sheet';
 	jQuery('#regional-bar-js').on('load', banner_init);
 	jQuery.ajax({
-		url:'http://hrpdcva.gov/regional-banner/index/version/',
+		url:'https://hrpdcva.gov/regional-banner/index/version/',
 		success:function(data){
 			let files = jQuery.parseJSON(data);
 			//console.log(files.js)
