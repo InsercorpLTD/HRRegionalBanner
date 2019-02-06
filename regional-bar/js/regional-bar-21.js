@@ -211,10 +211,12 @@ function showSub(type){
 		ele.slideDown('slow').addClass('open');
 		jQuery('.'+type+'-menu').addClass('active');
 		
-		if(type == 'regional' || type == 'govt' || type == 'map' || type == 'state' || type == 'fed'){ jQuery('.regional-veil').show(); regionFreeze(); checkColumns(type);}
-		if(!ele.hasClass('images-loaded')){
-			banner.img_load(ele);
-			ele.addClass('images-loaded');
+		if(type == 'regional' || type == 'govt' || type == 'map' || type == 'state' || type == 'fed'){ 
+			jQuery('.regional-veil').show(); regionFreeze(); checkColumns(type);
+			if(!ele.hasClass('images-loaded')){
+				banner.img_load(ele);
+				ele.addClass('images-loaded');
+			}
 		}
 	}else{
 		jQuery('#'+type).removeClass('open').slideUp('slow');
