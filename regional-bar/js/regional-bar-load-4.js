@@ -25,6 +25,7 @@ jQuery(document).ready(function(){
 				glyph.rel  = 'stylesheet';
 				glyph.type = 'text/css';
 				glyph.href = 'https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/css/glyphicons-1.css';
+				//glyph.href = 'regional-bar/css/glyphicons-1.css';
 				glyph.media = 'all';
 				jQuery(last).before(glyph);
 			}
