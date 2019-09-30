@@ -13,7 +13,7 @@ jQuery(document).ready(function(){
 				reset.id   = resetId;
 				reset.rel  = 'stylesheet';
 				reset.type = 'text/css';
-				reset.href = 'https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/css/reset.css';
+				reset.href = 'https://cdn.jsdelivr.net/gh/InsercorpLTD/HRRegionalBanner@master/regional-bar/css/reset.css';
 				reset.media = 'all';
 				jQuery(head).prepend(reset);
 			}
@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
 				glyph.id   = glyphId;
 				glyph.rel  = 'stylesheet';
 				glyph.type = 'text/css';
-				glyph.href = 'https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/css/glyphicons-1.css';
+				glyph.href = 'https://cdn.jsdelivr.net/gh/InsercorpLTD/HRRegionalBanner@master/regional-bar/css/glyphicons-1.css';
 				glyph.media = 'all';
 				jQuery(last).before(glyph);
 			}
@@ -35,7 +35,7 @@ jQuery(document).ready(function(){
 				link.id   = cssId;
 				link.rel  = 'stylesheet';
 				link.type = 'text/css';
-				link.href = 'https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/css/'+files.css;
+				link.href = 'https://cdn.jsdelivr.net/gh/InsercorpLTD/HRRegionalBanner@master/regional-bar/css/'+files.css;
 				link.media = 'all';
 				jQuery(last).before(link);
 			}
@@ -45,7 +45,7 @@ jQuery(document).ready(function(){
 				var script  = document.createElement('script');
 				script.id   = jsId;
 				script.type = 'text/javascript';
-				script.src = 'https://cdn.rawgit.com/InsercorpLTD/HRRegionalBanner/master/regional-bar/js/'+files.js;
+				script.src = 'https://cdn.jsdelivr.net/gh/InsercorpLTD/HRRegionalBanner@master/regional-bar/js/'+files.js;
 				head.appendChild(script);
 				if(script.readyState) {  //IE
 					script.onreadystatechange = function() {
