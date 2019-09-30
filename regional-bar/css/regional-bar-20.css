@@ -276,7 +276,7 @@ iframe.goog-te-menu-frame.skiptranslate{
 }
 
 @media (max-width: 767px){
-	.hidden-xs{ display:none; }
+	.hidden-xs{ display:none!important; }
 	.visible-xs-inline-block{ display:inline-block; }
 	.regional-bar{ padding:0; }
 }
