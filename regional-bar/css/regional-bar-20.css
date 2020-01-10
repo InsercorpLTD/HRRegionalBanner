@@ -292,6 +292,9 @@ iframe.goog-te-menu-frame.skiptranslate{
 @media (max-width: 330px){
 	#translate a{ font-size: .75em; }
 }
+@media (max-width: 767px){
+	body .goog-te-spinner-pos{ display:none!important; }
+}
 /*@media (max-width: 767px){
 	#mobile-link{ display:none!important; }
 	#regional-link{ display:inline-block!important; }
